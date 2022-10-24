@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C2A2A"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="23sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="142dp"
+        android:background="@drawable/banner_bg"
+        android:layoutDirection="locale">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="114dp"
+            android:layout_height="56dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="269dp"
+            android:layout_marginBottom="69dp"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+        <TextView
+            android:id="@+id/textnombre"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="199dp"
+            android:layout_marginBottom="24dp"
+            android:text="Bienvenidos"
+            android:textColor="@color/purple_200"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>
